@@ -15,7 +15,7 @@ int result = ((number / 10) % 10);
 
 if (array < 3 || array > 3)
 {
-    Console.WriteLine("Введено не трехзначное число");
+    Console.WriteLine("Введено не трёхзначное число");
 }
 else
 {
