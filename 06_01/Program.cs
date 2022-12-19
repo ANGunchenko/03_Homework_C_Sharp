@@ -36,7 +36,7 @@ int InputNumber(string str)
     {
         Console.Write(str);
         text = Console.ReadLine();
-        if (int.TryParse(text, out number))
+        if (int.TryParse (text, out number))
         {
             break;
         }
